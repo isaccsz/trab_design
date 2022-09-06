@@ -8,3 +8,7 @@ Resolvi desenvolver juntamente um de alta fidelidade utilizando HTML e CSS para 
 O projeto consiste basicamente de uma tela de menu que direciona o usuário para seus segmentos.
 
 Disponibilizei a pagina usando o GitHub Pages para melhor visualização.
+
+
+
+*OBS:* A pagina foi criada há algum tempo, sem se preocupar com responsividade.
