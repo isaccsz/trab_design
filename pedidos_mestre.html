@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pedidos (MESTRE)</title>
+    <link href="styles/styles pedidos_mestre.css" rel="stylesheet">
+    <link href="/fonts/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/index.html"><h2>Inicio</h2></a>
+        <nav>
+            <ul>
+                <a href="#" class="navigation"><li>Ajuda</li></a>
+                <a href="#" class="navigation"><li>Sair</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <input type="button" name="novo" id="novo" value="Novo">
+                    <input type="button" name="editar" id="editar" value="Editar">
+                    <input type="button" name="gravar" id="gravar" value="Gravar">
+                    <input type="button" name="excluir" id="excluir" value="Excluir">
+
+                    <legend>Pedidos (MESTRE)</legend>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="user">Usuário:</label>
+                            <input type="text" name="user" id="user" required placeholder="Ex: Isac Cruz">
+                        </div> 
+                        <div class="flex">   
+                            <label for="pedidoid">ID do Pedido:</label>
+                            <input type="number" name="pedidoid" id="pedidoid" required placeholder="______________">
+                        </div>
+                    </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="Vendedor">Vendedor:</label>
+                            <input type="text" name="Vendedor" id="Vendedor" required placeholder="Ex: Isac Cruz">
+                        </div> 
+                        <div class="flex">   
+                            <label for="Cliente">Cliente:</label>
+                            <input type="text" name="Cliente" id="Cliente" required placeholder="Ex: Isac Cruz">
+                        </div>    
+                        </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="transportadora">Transportadora:</label>
+                            <input type="text" name="transportadora" id="transportadora" required placeholder="SuaTransportadora">
+                        </div>
+                        <div class="flex">   
+                            <label for="data">Data do Pedido:</label>
+                            <input type="date" name="data" id="data" required placeholder="dd/mm/aaaa">
+                        </div>    
+                    </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="desconto">Valor do Desconto:</label>
+                            <input type="number" name="desconto" id="desconto" required placeholder="R$ 00,00">
+                        </div>
+                        <div class="flex">
+                            <label for="pedido">Valor do Pedido:</label>
+                            <input type="number" name="pedido" id="pedido" required placeholder="R$ 00,00">
+                        </div>
+                    </div>
+                </fieldset>
+
+
+            </form>
+           
+        </div>  
+    </main>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="if=edge">
+    <title>Cadastro de Transportadora</title>
+    <link href="/styles/styles cadastros_transportadora.css" rel="stylesheet">
+    <link href="/fonts/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/index.html"><h2>Inicio</h2></a>
+        <nav>
+            <ul>
+                <a href="#" class="navigation"><li>Ajuda</li></a>
+                <a href="#" class="navigation"><li>Sair</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <input type="button" name="novo" id="novo" value="Novo">
+                    <input type="button" name="editar" id="editar" value="Editar">
+                    <input type="button" name="gravar" id="gravar" value="Gravar">
+                    <input type="button" name="excluir" id="excluir" value="Excluir">
+
+                    <legend>Cadastro de Transportadora</legend>
+                    
+                    <p>Tipo de Transportadora:</p>
+                    <label for="pf">
+                    <input type="radio" name="pf" id="pf">
+                    <span>Pessoa Fisica</span>
+                    </label>
+
+                    <label for="pj">
+                    <input type="radio" name="pf" id="pj">
+                    <span>Pessoa juridica</span>
+                    </label>
+
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="cpf">CPF/CNPJ:</label>
+                            <input type="number" name="cpf" id="cpf" required placeholder="___-___-___-__">
+                        </div>
+                        <div class="flex">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" required placeholder="Ex: Transportadora Tal">
+                        </div>
+                    </div>
+
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="if">Inscrição Estadual:</label>
+                            <input type="number" name="if" id="if" required placeholder="_____________">
+                        </div>
+                        <div class="flex">    
+                            <label for="placa">Inscrição Municipal:</label>
+                            <input type="number" name="placa" id="placa" required placeholder="_____________">
+                        </div>
+                    </div>  
+                    
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="if">Identificação Fiscal:</label>
+                            <input type="number" name="if" id="if" required placeholder="_____________">
+                        </div>
+                        <div class="flex">    
+                            <label for="placa">Placa do veiculo:</label>
+                            <input type="number" name="placa" id="placa" required placeholder="_____________">
+                        </div>
+                    </div>
+                    
+                </fieldset>
+
+
+            </form>
+           
+        </div>  
+    </main>
+</body>
+</html>

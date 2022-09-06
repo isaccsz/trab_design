@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro de Vendedores</title>
+    <link href="styles/styles cadastros_vendedores.css" rel="stylesheet">
+    <link href="/fonts/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/index.html"><h2>Inicio</h2></a>
+        <nav>
+            <ul>
+                <a href="#" class="navigation"><li>Ajuda</li></a>
+                <a href="#" class="navigation"><li>Sair</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <input type="button" name="novo" id="novo" value="Novo">
+                    <input type="button" name="editar" id="editar" value="Editar">
+                    <input type="button" name="gravar" id="gravar" value="Gravar">
+                    <input type="button" name="excluir" id="excluir" value="Excluir">
+
+                    <legend>Cadastro de Vendedores</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" autofocus required placeholder="Ex: Isac Cruz">
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="cpf">CPF:</label>
+                            <input type="number" name="cpf" id="cpf" required placeholder="___-___-___-__">
+                        </div> 
+                        <div class="flex">   
+                            <label for="RS">Razão Social:</label>
+                            <input type="number" name="RS" id="RS" required placeholder="______________">
+                        </div>
+                    </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="IE">Inscrição Estadual:</label>
+                            <input type="number" name="IE" id="IE" required placeholder="______________">
+                        </div> 
+                        <div class="flex">   
+                            <label for="telefone">Tel:</label>
+                            <input type="tel" name="telefone" id="telefone" required placeholder="(  )_____-____">
+                        </div>    
+                        </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="emails">E-mail:</label>
+                            <input type="email" name="emails" id="emails" required placeholder="yourEmailhere@email.com">
+                        </div>
+                        <div class="flex">   
+                            <label for="ID">ID:</label>
+                            <input type="number" name="ID" id="ID" required placeholder="______________">
+                        </div>    
+                    </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="cep">CEP:</label>
+                            <input type="number" name="cep" id="cep" required placeholder="______________">
+                        </div>
+                        <div class="flex">
+                            <label for="uf">UF:</label>
+                            <select name="uf" id="uf" required>
+                                <option value="Selecione">Selecione</option>
+                                <option value="MG">MG</option>
+                                <option value="SP">SP</option>
+                                <option value="RS">RS</option>
+                                <option value="RJ">RJ</option>
+                                <option value="PR">PR</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" name="endereco" id="endereco" placeholder="Rua Mussum Ipsum, cacilds vidis litro abertis" required>
+                        </div>
+                        <div class="flex">    
+                            <label for="complemento">Complemento:</label>
+                            <input type="text" name="complemento" id="complemento" placeholder="Casa/Apto" required>
+                        </div>    
+                    </div>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="comissao">Percentual de Comissão:</label>
+                            <input type="number" name="comissao" id="comissao" placeholder="R$00,00" required>
+                        </div>
+                        <div class="flex">
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" name="cidade" id="cidade" placeholder="Não Me Toque - RS" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+
+            </form>
+           
+        </div>  
+    </main>
+</body>
+</html>

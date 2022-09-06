@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Condição de Pagamento - Cadastrar</title>
+    <link href="/styles/styles cadastros_condicao.css" rel="stylesheet">
+    <link href="/fonts/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/index.html"><h2>Inicio</h2></a>
+        <nav>
+            <ul>
+                <a href="#" class="navigation"><li>Ajuda</li></a>
+                <a href="#" class="navigation"><li>Sair</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <input type="button" name="novo" id="novo" value="Novo">
+                    <input type="button" name="editar" id="editar" value="Editar">
+                    <input type="button" name="gravar" id="gravar" value="Gravar">
+                    <input type="button" name="excluir" id="excluir" value="Excluir">
+
+                    <legend>Condição de Pagamento</legend>
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="id">ID:</label>
+                            <input type="number" name="id" id="id" autofocus required placeholder="_____________">
+                        </div>
+                        <div class="flex">
+                            <label for="cod">Condição de Pagamento:</label>
+                            <input type="number" name="cod" id="cod" required placeholder="____________">
+                        </div>
+                    </div>
+                    
+                    <label for="descricao">Descrição:</label>
+                    <input type="text" name="descricao" id="descricao" placeholder="Sapien in monti palavris qui num significa nadis i pareci latim." required> 
+                    
+                    <label for="table">Dias:</label>
+                    <table id="table">
+                    <tr>
+                        <th>Nº Seq</th>
+                        <th>Nº Dias</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>INFO HERE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>INFO HERE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>INFO HERE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>INFO HERE</td>
+                    </tr>
+                    </table>
+                </fieldset>
+
+            </form>
+
+        </div>  
+    </main>
+</body>
+</html>

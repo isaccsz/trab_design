@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+header{
+    background-color:  rgb(22, 22, 22);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header li{
+    list-style: none;
+    font-family: 'BhuTuka Expanded One', cursive;;
+}
+
+header a{
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 1px solid purple;
+    border-radius: 15px;
+    text-align: center;
+}
+header a:hover{
+    background-color: purple;
+    transition: 0.3s all;
+}
+nav{
+    margin-left: 170px;
+}
+
+.container{
+    width: 80%;
+    height: 500px;
+    margin: 110px auto;
+    position: relative;
+}
+
+legend{
+    background-color:rgb(22, 22, 22);
+    border: 1px solid rgb(206, 0, 206);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 6px 6px 6px purple;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+fieldset{
+    margin: 0 auto;
+    width: 39%;
+    height: 450px;
+    padding: 15px 0 0 15px;
+    background-color: rgb(18, 18, 18);
+    position: relative;
+    border: 1px inset white;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+
+label{
+    display: inline-block;
+    margin: 6px 0;
+    color: rgb(206, 0, 206);
+    text-decoration: underline;
+}
+
+#novo, #editar, #gravar, #excluir{
+    width: 50px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: rgb(22, 22, 22);
+    color: rgb(206, 0, 206);
+}
+#novo:hover, #editar:hover, #gravar:hover, #excluir:hover{
+    border-color: purple;
+    transition: 0.3s all;
+}
+
+
+#novo{
+    position: absolute;
+    left: -50px;
+    top: -30px;
+}
+
+#editar{
+    position: absolute;
+    left: -50px;
+    top: 0;
+}
+
+#gravar{
+    position: absolute;
+    left: -50px;
+    top: 30px;
+}
+
+#excluir{
+    position: absolute;
+    left: -50px;
+    top: 60px;
+}
+
+#id, #cod{
+    display: block;
+    border: 1px solid rgb(206, 0, 206);
+    border-radius: 10px;
+    width: 70%;
+    padding: 6px;
+    margin-left: 20px;
+}
+
+#descricao{
+    display: block;
+    border: 1px solid rgb(206, 0, 206);
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 6px;
+    width: 80%;
+}
+
+.lateral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex{
+    width: 50%;
+}
+
+#venda, #promo{
+    display: block;
+    border: 1px solid rgb(206, 0, 206);
+    border-radius: 10px;
+    padding: 6px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+#un, #status{
+    display: block;
+    border: 1px solid rgb(206, 0, 206);
+    border-radius: 10px;
+    padding: 6px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+

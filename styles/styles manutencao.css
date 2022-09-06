@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+header{
+    background-color:  rgb(22, 22, 22);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header li{
+    list-style: none;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+header a{
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 1px solid purple;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'BhuTuka Expanded One',cursive;
+}
+
+header a:hover{
+    background-color: purple;
+    transition: 0.3s all;
+}
+
+nav{
+    margin-left: 170px;
+}
+
+.container{
+    width: 80%;
+    height: 500px;
+    margin: 110px auto;
+    position: relative;
+}
+
+.floaters{
+    border: 1px inset white;
+    background-color:  rgb(22, 22, 22);
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    height: 500px;
+    width: 31%;
+    margin: 0 1%;
+}
+
+.window-1{
+    z-index: 1;
+    position: relative;
+    left: 35%;
+    visibility: hidden;
+}
+
+.window-2{
+    z-index: 2;
+    position: relative;
+    left: 35%;
+    bottom: 500px;
+    visibility: hidden;
+}
+
+.window-3{
+    z-index: 3;
+    position: relative;
+    left: 35%;
+    bottom: 1002px;
+    visibility: visible;
+}
+
+#cadastros{
+    position: relative;
+    bottom: 50px;
+    right: 1px;
+    background-color: rgb(22, 22, 22);
+    width: 30%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#movimentacao{
+    position: relative;
+    bottom: 50px;
+    left: 30%;
+    background-color: rgb(22, 22, 22);
+    width: 30%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#manutencao{
+    position: relative;
+    left: 60%;
+    bottom: 51px;
+    background-color: rgb(22, 22, 22);
+    width: 30%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px inset white;
+    border-bottom: none;
+}
+
+#cadastros, #movimentacao, #manutencao{
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    visibility: visible;
+}
+
+#cadastros:hover{
+    background-color: rgb(14, 14, 14);
+}
+
+#movimentacao:hover{
+    background-color: rgb(14, 14, 14);
+}
+
+#manutencao:hover{
+    background-color: rgb(14, 14, 14);
+}
+
+
+main h2{
+    text-align: center;
+    padding: 30px 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px purple;
+    letter-spacing: 1px;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-size: 10px;
+}
+
+main li{
+    list-style: none;
+    padding: 20px 0 20px 20px;
+}
+
+main a{
+    color: white;
+    text-decoration: underline;
+}
+
+main a:hover{
+    color: purple;
+    transition: 0.3s all;
+}

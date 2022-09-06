@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro de Usuarios</title>
+    <link href="/styles/styles cadastros.css" rel="stylesheet">
+    <link href="/fonts/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/manutencao.html"><h2>Inicio</h2></a>
+        <nav>
+            <ul>
+                <a href="#" class="navigation"><li>Ajuda</li></a>
+                <a href="#" class="navigation"><li>Sair</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <input type="button" name="novo" id="novo" value="Novo">
+                    <input type="button" name="editar" id="editar" value="Editar">
+                    <input type="button" name="gravar" id="gravar" value="Gravar">
+                    <input type="button" name="excluir" id="excluir" value="Excluir">
+
+                    <legend>Cadastro de Usuarios</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" autofocus required placeholder="Ex: Isac Cruz">
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="cpf">CPF:</label>
+                            <input type="number" name="cpf" id="cpf" required placeholder="___-___-___-__">
+                        </div>
+                        <div class="flex">
+                            <label for="matricula">Matr:</label>
+                            <input type="number" name="matricula" id="matricula" required placeholder="____________">
+                        </div>
+                    </div>
+
+                    <div class="lateral">
+                        <div class="flex">
+                            <label for="nascimento">Nascimento:</label>
+                            <input type="date" name="nascimento" id="nascimento" min="1950-01-01" max="2022-01-01" required>
+                        </div>
+                        <div class="flex">
+                            <label for="telefone">Tel:</label>
+                            <input type="tel" name="telefone" id="telefone" required placeholder="(  )_____-____">
+                        </div>
+                    </div>
+                    <label for="emails">E-mail:</label>
+                    <input type="email" name="emails" id="emails" required placeholder="yourEmailhere@email.com">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required placeholder="CatsAreCute">
+
+                </fieldset>
+
+
+            </form>
+           
+        </div>  
+    </main>
+</body>
+</html>
