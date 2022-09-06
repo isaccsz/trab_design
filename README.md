@@ -6,3 +6,5 @@ O intuito era desenvolver alguns protótipos de baixa fidelidade utilizando o Pe
 Resolvi desenvolver juntamente um de alta fidelidade utilizando HTML e CSS para contextualizar com o conteúdo aprendido durante o módulo.
 
 O projeto consiste basicamente de uma tela de menu que direciona o usuário para seus segmentos.
+
+Disponibilizei a pagina usando o GitHub Pages para melhor visualização.
